@@ -1,0 +1,20 @@
+
+云服务器
+公网IP：118.24.64.35
+密码：Zb390@yeah.net
+
+
+云数据库
+密码：Zb390@yeah$net
+外网地址：cd-cdb-idgjtsqq.sql.tencentcdb.com
+外网端口：62547
+内网地址：172.27.0.4
+内网端口：3306
+
+
+# ---Set Java Environment---
+JAVA_HOME=/usr/local/java/jdk1.8.0_141
+JRE_HOME=/usr/local/java/jdk1.8.0_141/jre
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH
